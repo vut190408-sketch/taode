@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Management Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.8.0/mammoth.browser.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.10/katex.min.css" integrity="sha512-nHk5PQrYCIyS+bMr8M0ZNRCIvPPaG+jXp9g/dJolpG/bJLRGBveOFlgJv2cqdKx3WH/TFGp3zjwVOPe-vMR4Cg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.10/katex.min.js" integrity="sha512-XefgAN+QZX33gKnhCr_AUGuTTN9kB9q1fOLJW+jsZEP8p0S2e0/DOfL5eSn0GGmeDSTR3dE2Qa5UeOgFAfG/dA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Scripts for Advanced Editor -->
+    <script src="https://cdn.jsdelivr.net/npm/tinymce@7/tinymce.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        startup: { typeset: false }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <!-- End Scripts for Advanced Editor -->
+
+    <script>
+      // Tailwind custom theme
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#007bff',
+                hover: '#0069d9'
+              },
+              secondary: {
+                DEFAULT: '#6c757d',
+                hover: '#5a6268'
+              },
+              success: {
+                DEFAULT: '#28a745',
+                hover: '#218838'
+              },
+              danger: {
+                DEFAULT: '#dc3545',
+                hover: '#c82333'
+              },
+              'primary-bg': '#f4f6f9',
+              'secondary-bg': '#ffffff',
+              'text-main': '#212529',
+            }
+          }
+        }
+      }
+    </script>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-D8g4yxh6.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
